@@ -141,7 +141,7 @@ async function askGemini(text, history, searchContext, timeoutMs) {
         contents,
         generationConfig: {
           temperature: 0.5,
-          maxOutputTokens: 150
+          maxOutputTokens: 300
         }
       })
     },
